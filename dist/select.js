@@ -349,8 +349,9 @@
           ctrl.sizeSearchInput();
         } else {
           ctrl.selected = item;
+          ctrl.close(skipFocusser);
         }
-        ctrl.close(skipFocusser);
+
       }
     };
 
